@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Events.css"
 
 const Events = () => {
     return (
-        <div>
+        <events>
             <h1>Upcoming Events</h1>
             {/* Add events content here */}
-        </div>
+        </events>
     );
 };
 
