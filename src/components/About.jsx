@@ -1,12 +1,14 @@
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation'
+import "./About.css"
 
 const About = () => {
     return (
-        <div>
-            <h1>About SASE @ UVA</h1>
-            {/* Add home content here */}
-        </div>
+        <about>
+            <div className="Title">
+                <h1>About SASE @ UVA</h1>
+            </div>
+            {/* Add about content here */}
+        </about>
     );
 };
 
