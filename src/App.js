@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import About from "./components/About"
 import Events from "./components/Events"
-import Contact from "./components/Contact"
+import Leadership from "./components/Leadership"
+import Footer from "./components/Footer"
 import './index.css';
 
 
@@ -16,9 +17,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/leadership" element={<Leadership />} />
       </Routes>
-    </Router>    
+      <Footer />
+    </Router>
   );
 }
 
