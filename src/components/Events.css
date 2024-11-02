@@ -1,6 +1,17 @@
 events {
     display: flex;
     flex-direction: column;
-    justify-content: normal;
     align-items: center;
+}
+
+.list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.list li {
+    margin: 0.5rem 0; /* Add space between items */
 }
