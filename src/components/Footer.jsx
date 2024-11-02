@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaDiscord } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -15,6 +15,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/sase.uva/" target="_blank" rel="noopener noreferrer" className="contact-link">
                         <FaInstagram size={30} />
                     </a>
+                    <a href="https://discord.gg/qqUkwM57yp" target="_blank" rel="noopener noreferrer" className="contact-link"><FaDiscord size={30}></FaDiscord></a>
                 </div>
             </div>
             <div className="footer-bottom">

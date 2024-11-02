@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
     return (
@@ -8,16 +8,16 @@ const Home = () => {
             <div className="title">
                 <h1>Welcome to SASE @ UVA</h1>
             </div>
-            <h2 className='text-2xl sm:text-4xl font-bold text-white'>
+            <div className="animation-container">
                 <TypeAnimation
-                sequence={[
-                    'This website is currently being built, come back later to see it complete!',
-                    1000,
-                ]}
-                speed={40}
-                repeat={Infinity}
+                    sequence={[
+                        'Welcome to the home website for SASE@UVA, feel free to browse around for events, leadership, and general info (further updates to this website are coming)!',
+                        1000,
+                    ]}
+                    speed={40}
+                    repeat={Infinity}
                 />
-            </h2>
+            </div>
         </home>
     );
 };
