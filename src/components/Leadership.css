@@ -6,7 +6,11 @@ leadership {
 }
 
 leadership .title {
-    color: #000000;
+   color: #FB5C02;
+}
+
+leadership .Subtitle {
+    color: #FB5C02;
 }
 
 leadership .people {

@@ -1,17 +1,12 @@
 events {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
-.list {
-    list-style-type: none; /* Remove default bullets */
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.list li {
-    margin: 0.5rem 0; /* Add space between items */
+.Title h1 {
+    font-size: 2rem;
+    color: #FB5C02;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }

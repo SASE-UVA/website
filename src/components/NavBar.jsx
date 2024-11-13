@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav>
             <Link to="/" className="title">
-                SASE@UVA
+                <img src="/Logo.png" alt="SASE@UVA Logo"/>
             </Link>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
                 <span></span>

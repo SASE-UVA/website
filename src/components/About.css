@@ -5,9 +5,9 @@ about {
     text-align: center;
 }
 
-.Title h1 {
+.Title {
     font-size: 2rem;
-    color: #053770;
+    color: #FB5C02;
     margin-bottom: 1rem;
 }
 
@@ -20,5 +20,5 @@ about {
 
 .content-list li {
     margin: 0.5rem 0; /* Adds space between each list item */
-    color: #333;
+    color: #FB5C02;
 }

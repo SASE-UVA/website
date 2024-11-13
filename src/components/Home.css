@@ -6,7 +6,7 @@ home {
 }
 
 home .title {
-    color: #000000;
+    color: #FB5C02;
 }
 
 .animation-container {
@@ -15,4 +15,5 @@ home .title {
     margin: 0 auto; /* Centers the container itself */
     font-size: 1.25rem;
     line-height: 1.5;
+    color: #FB5C02;
 }

@@ -4,15 +4,16 @@ import "./Events.css";
 const Events = () => {
     return (
         <events>
-            <h1>Upcoming Events</h1>
-            {/* Add events content here */}
-            <ul className="list">
-                <li>11/2 - CSA X UPC Full Moon Fest</li>
-                <li>11/4 - UVA Medical Entrepreneur Speaker Series</li>
-                <li>11/7 - Rush Hour Movie w/ NSBE</li>
-                <li>11/16 - Grateful Giving</li>
-                <li>11/21 - Last GBM + Potluck</li>
-            </ul>
+            <div className="Title">
+                <h1>Events</h1>
+            </div>
+            <div className="calendar">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=uvasaseevents%40gmail.com&ctz=America%2FNew_York"
+                    style={{ border: 0, width: '100%', height: '600px' }}
+                    title="Google Calendar">
+                </iframe>
+            </div>
         </events>
     );
 };
