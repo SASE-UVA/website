@@ -1,17 +1,39 @@
 .footer {
-    position: fixed;
+    position: absolute;
+    padding-bottom: 1rem;
     bottom: 0px;
     left: 0px;
     width: 100%;
     background-color: white;
-    color: white;
+    color: #FB5C02;
     text-align: center;
 }
 
 .footer-bottom {
-    margin-top: 1rem;
-    align-items: center;
-    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+.footer-bottom h1 {
+    font-family: 'Cactus Classical Serif';
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.footer-bottom h2 {
+    margin-top: 2rem;
+    font-size: .75rem;
+    font-weight: normal;
+}
+
+.footer-bottom p {
+    margin: 0;
+    padding: 0;
+    font-size: .75rem;
+}
+
+.footer-bottom a {
+    font-size: .75rem;
     color: #FB5C02;
 }
 
@@ -26,11 +48,13 @@
 }
 
 .contact-label {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    align-items: center;
 }
 
 .contact-links {
     display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
 

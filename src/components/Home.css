@@ -2,18 +2,28 @@ home {
     display: flex;
     flex-direction: column;
     justify-content: normal;
-    align-items: center;
 }
 
-home .title {
+.title {
     color: #FB5C02;
+}
+
+.title h1 {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
 }
 
 .animation-container {
-    text-align: center;
-    max-width: 80%; /* Controls the width of the text area */
-    margin: 0 auto; /* Centers the container itself */
-    font-size: 1.25rem;
+    text-align: left;
+    max-width: 80%; 
+    margin-left: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: #FB5C02;
 }
+
+
