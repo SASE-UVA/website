@@ -2,10 +2,15 @@ home {
     display: flex;
     flex-direction: column;
     justify-content: normal;
+    min-height: 100vh;
+    gap: 2rem;
+    padding: 2rem 0;
 }
 
 .title {
     color: #FB5C02;
+    margin: 0;
+    padding: 0;
 }
 
 .title h1 {
@@ -19,7 +24,7 @@ home {
 
 .animation-container {
     text-align: left;
-    max-width: 80%; 
+    max-width: 100%; 
     margin-left: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;

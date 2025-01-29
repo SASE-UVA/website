@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="title">
+      <Link to="/">
         <img src="/Logo.jpg" alt="SASE@UVA Logo" width="100" height="250"/>
       </Link>
 

@@ -6,7 +6,7 @@ import About from "./components/About";
 import Leadership from "./components/Leadership";
 import Events from "./components/Events";
 // import Sponsors from "./components/Sponsors";
-// import Contact from "./components/Contact";
+// import Merch from "./components/Merch";
 // import Alumni from "./components/Alumni";
 import Footer from "./components/Footer";
 import './index.css';
@@ -21,9 +21,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/leadership" element={<Leadership />} />
         <Route path="/events" element={<Events />} />
-        {/* <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/alumni" element={<Alumni />} /> */}
+        {/* <Route path="/sponsors" element={<Sponsors />} /> */}
+        {/* <Route path="/merch" element={<Merch />} /> */}
+        {/* <Route path="/alumni" element={<Alumni />} /> */}
       </Routes>
       <Footer />
     </Router>

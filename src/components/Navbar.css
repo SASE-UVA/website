@@ -7,8 +7,13 @@
     color: #ff6f61;
   }
   
-  .navbar .title img {
+  .navbar img {
     height: 40px;
+    transition: transform 0.3s ease;
+  }
+
+  .navbar img:hover {
+    transform: scale(1.1);
   }
   
   .menu {
