@@ -1,13 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import "./Events.css";
 
 const Events = () => {
     return (
         <events>
-            <div className="title">
-                <h1>Upcoming Events</h1>
-                <p>See what SASE at UVA is up to!</p>
-            </div>
+            <motion.div className="title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+                <div className="title">
+                    <h1>Upcoming Events</h1>
+                    <p>See what SASE at UVA is up to!</p>
+                </div>
+            </motion.div>
             <div className="calendar">
                 <iframe
                     src="https://calendar.google.com/calendar/embed?src=uvasaseevents%40gmail.com&ctz=America%2FNew_York&showTitle=0"
