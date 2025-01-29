@@ -4,8 +4,9 @@ import "./Events.css";
 const Events = () => {
     return (
         <events>
-            <div className="Title">
-                <h1>Events</h1>
+            <div className="title">
+                <h1>Upcoming Events</h1>
+                <p>See what SASE at UVA is up to!</p>
             </div>
             <div className="calendar">
                 <iframe
@@ -13,6 +14,22 @@ const Events = () => {
                     style={{ border: 0, width: '100%', height: '600px' }}
                     title="Google Calendar">
                 </iframe>
+            </div>
+
+            <div className="previous">
+                <h1>Previous Events</h1>
+                <div className="photos"></div>
+            </div>
+
+            <div className="newsletter">
+                <h1>Join our Newsletter</h1>
+                <p>Keep up to date with SASE by entering your email and clicking the join button below!</p>
+                <form>
+                    <div className="input-container">
+                        <input type="email" placeholder="Email address" />
+                        <p className="join-button">JOIN NOW</p>
+                    </div>
+                </form>
             </div>
         </events>
     );

@@ -10,6 +10,7 @@ about {
     color: #FB5C02;
     flex: 2;
     max-width: 60%;
+    flex: 1;
 }
 
 .title h1 {
@@ -35,7 +36,7 @@ about {
 }
 
 .content-list {
-    list-style-type: none; /* Removes bullet points */
+    list-style-type: none;
     padding: 0;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -43,19 +44,18 @@ about {
 }
 
 .content-list li {
-    margin: 1rem 0; /* Adds space between each list item */
+    margin: 1rem 0;
     color: #FB5C02;
 }
 
 .mission {
-    margin-top: 3rem; /* Add margin to push the mission section beneath */
+    margin-top: 3rem;
     width: 100%;
     background-color: rgba(255, 133, 27, 0.38);
 }
 
 .mission h1 {
-    opacity: 1;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Cactus Classical Serif';
     font-weight: normal; 
     color: #FB5C02;
@@ -68,49 +68,30 @@ about {
     margin-bottom: 2rem;
 }
 
-.professional {
+.professional, .community, .diversity {
     color: #053770;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     margin-left: 4rem;
+    margin-right: 4rem;
 }
 
-.professional h1 {
-    font-size: 4rem;
+.professional h1, .community h1, .diversity h1 {
+    font-size: 3rem;
     font-family: 'Cactus Classical Serif';
     font-weight: normal; 
-}
-
-.community {
-    color: #053770;
-    margin-bottom: 2rem;
 }
 
 .community h1 {
     text-align: center;
-    font-size: 4rem;
-    font-family: 'Cactus Classical Serif';
-    font-weight: normal; 
-}
-
-.community p {
-    text-align: left;
-    margin-left: 4rem;
-}
-
-.diversity {
-    color: #053770;
-    margin-bottom: 2rem;
 }
 
 .diversity h1 {
     text-align: right;
-    margin-right: 2rem;
-    font-size: 4rem;
-    font-family: 'Cactus Classical Serif';
-    font-weight: normal; 
 }
 
+.professional p,
+.community p,
 .diversity p {
     text-align: left;
-    margin-left: 4rem;
 }
