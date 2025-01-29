@@ -1,36 +1,45 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import "./Navbar.css"
+import './Navbar.css';
 
 const NavBar = () => {
-    const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
-    return (
-        <nav>
-            <Link to="/" className="title">
-                SASE@UVA
-            </Link>
-            <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul className={menuOpen ? "open" : ""}>
-                <li>
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about">About</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/events">Events</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/leadership">Leadership</NavLink>
-                </li>
-            </ul>
-        </nav>
-    )
+  return (
+    <nav className="navbar">
+      <Link to="/">
+        <img src="/Logo.jpg" alt="SASE@UVA Logo" width="100" height="250"/>
+      </Link>
+
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
+
+      <ul className={menuOpen ? 'nav-links open' : 'nav-links'}>
+        <li>
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>ABOUT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/leadership" onClick={() => setMenuOpen(false)}>LEADERSHIP</NavLink>
+        </li>
+        <li>
+          <NavLink to="/events" onClick={() => setMenuOpen(false)}>EVENTS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/sponsors" onClick={() => setMenuOpen(false)}>SPONSORS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/merch" onClick={() => setMenuOpen(false)}>MERCH</NavLink>
+        </li>
+        <li>
+          <NavLink to="/alumni" onClick={() => setMenuOpen(false)}>ALUMNI</NavLink>
+        </li>
+        <button className="button">BECOME A MEMBER</button>
+      </ul>
+    </nav>
+  );
 };
 
 export default NavBar;

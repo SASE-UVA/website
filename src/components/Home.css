@@ -2,17 +2,33 @@ home {
     display: flex;
     flex-direction: column;
     justify-content: normal;
-    align-items: center;
+    min-height: 100vh;
+    gap: 2rem;
+    padding: 2rem 0;
 }
 
-home .title {
-    color: #000000;
+.title {
+    color: #FB5C02;
+    margin: 0;
+    padding: 0;
+}
+
+.title h1 {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
 }
 
 .animation-container {
-    text-align: center;
-    max-width: 80%; /* Controls the width of the text area */
-    margin: 0 auto; /* Centers the container itself */
-    font-size: 1.25rem;
+    text-align: left;
+    max-width: 100%; 
+    margin-left: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
+    color: #FB5C02;
 }
+
+

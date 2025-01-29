@@ -7,8 +7,11 @@ const Leadership = () => {
             <div className="Title">
                 <h1>Leadership Information</h1>
             </div>
+            <div className="Subtitle">
+                <h2>2024-25 Leadership</h2>
+            </div>
             {/* Add leadership content here */}
-            <h2>2024-25 Leadership</h2>
+            
             <div className="people">
                 
             </div>
