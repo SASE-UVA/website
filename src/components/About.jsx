@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import "./About.css";
+import rotunda from "../assets/Rotunda.png"
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
                 </ul>
             </motion.div>
             <div className="image">
-                <img src="/Rotunda.png" alt="SASE@UVA Logo" height="524" width="718"/>
+                <img src={rotunda} alt="SASE@UVA Logo" height="524" width="718"/>
             </div>
         
             <div className="mission">
