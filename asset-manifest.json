@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.f39d1f9d.css",
-    "main.js": "/static/js/main.00887647.js",
+    "main.css": "/static/css/main.1b14be33.css",
+    "main.js": "/static/js/main.025e73b3.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/Eiman Sherzada.jpg": "/static/media/Eiman Sherzada.5ab1148a5b81baa16423.jpg",
+    "static/media/Norah Lee.jpg": "/static/media/Norah Lee.162a643e5789500d1d61.jpg",
+    "static/media/Femi Shaikh.jpg": "/static/media/Femi Shaikh.865bb456c636c8100ede.jpg",
+    "static/media/Justin Zheng.jpg": "/static/media/Justin Zheng.bdcc1a5a4a18602efdcf.jpg",
+    "static/media/Jimmy Chen.jpg": "/static/media/Jimmy Chen.1e3450415ec7c244b3ba.jpg",
+    "static/media/Lanah Pheng.jpg": "/static/media/Lanah Pheng.1aedd857dfbd01fd1505.jpg",
+    "static/media/Salina Tran.jpg": "/static/media/Salina Tran.9944433b966d057cd30f.jpg",
+    "static/media/Vy Nguyen.jpg": "/static/media/Vy Nguyen.514bb0ad745ec619674f.jpg",
+    "static/media/Jonathan Luu.jpg": "/static/media/Jonathan Luu.7474a13531a8b39d4bf8.jpg",
+    "static/media/Justin Park.jpg": "/static/media/Justin Park.2c9d92088cf19f5a9dfe.jpg",
+    "static/media/Ken Fabia.jpg": "/static/media/Ken Fabia.fe8266a5c602c5947319.jpg",
+    "static/media/Rotunda.png": "/static/media/Rotunda.354504624bc08877b916.png",
     "index.html": "/index.html",
-    "main.f39d1f9d.css.map": "/static/css/main.f39d1f9d.css.map",
-    "main.00887647.js.map": "/static/js/main.00887647.js.map",
+    "main.1b14be33.css.map": "/static/css/main.1b14be33.css.map",
+    "main.025e73b3.js.map": "/static/js/main.025e73b3.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f39d1f9d.css",
-    "static/js/main.00887647.js"
+    "static/css/main.1b14be33.css",
+    "static/js/main.025e73b3.js"
   ]
 }
