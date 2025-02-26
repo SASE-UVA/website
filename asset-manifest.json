@@ -1,8 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b14be33.css",
-    "main.js": "/static/js/main.025e73b3.js",
+    "main.css": "/static/css/main.4f7f35e5.css",
+    "main.js": "/static/js/main.921b23bb.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/DSC02766.jpg": "/static/media/DSC02766.adfddf2a1c2bb782bbdd.jpg",
+    "static/media/DSC01112.jpg": "/static/media/DSC01112.f7230deda65ec7dc0de3.jpg",
+    "static/media/DSC02776.jpg": "/static/media/DSC02776.91c2582b1ad7c1775616.jpg",
+    "static/media/DSC01120.jpg": "/static/media/DSC01120.1e73db2938489d08d27f.jpg",
+    "static/media/DSC01109.jpg": "/static/media/DSC01109.973907e6994de3befb5c.jpg",
+    "static/media/DSC01136.jpg": "/static/media/DSC01136.f2ea1f2448a61b5fbd94.jpg",
+    "static/media/DSC02792.jpg": "/static/media/DSC02792.c15c1bd0d6a642f733ef.jpg",
+    "static/media/DSC02657.jpg": "/static/media/DSC02657.cdd4383d0fe8ecb6158c.jpg",
+    "static/media/DSC02660.jpg": "/static/media/DSC02660.b971aaa50088f1e88feb.jpg",
+    "static/media/DSC02672.jpg": "/static/media/DSC02672.36eec8e254b7305d9051.jpg",
+    "static/media/DSC02679.jpg": "/static/media/DSC02679.6e3894a21ba2ba95057b.jpg",
+    "static/media/DSC02663.jpg": "/static/media/DSC02663.f822cc06089864e7b09f.jpg",
+    "static/media/DSC02658.jpg": "/static/media/DSC02658.49d7e143154af1caa340.jpg",
+    "static/media/DSC02668.jpg": "/static/media/DSC02668.9eda9041c57c0c1bbd45.jpg",
     "static/media/Eiman Sherzada.jpg": "/static/media/Eiman Sherzada.5ab1148a5b81baa16423.jpg",
     "static/media/Norah Lee.jpg": "/static/media/Norah Lee.162a643e5789500d1d61.jpg",
     "static/media/Femi Shaikh.jpg": "/static/media/Femi Shaikh.865bb456c636c8100ede.jpg",
@@ -14,14 +28,17 @@
     "static/media/Jonathan Luu.jpg": "/static/media/Jonathan Luu.7474a13531a8b39d4bf8.jpg",
     "static/media/Justin Park.jpg": "/static/media/Justin Park.2c9d92088cf19f5a9dfe.jpg",
     "static/media/Ken Fabia.jpg": "/static/media/Ken Fabia.fe8266a5c602c5947319.jpg",
+    "static/media/boston.jpg": "/static/media/boston.6cf59ab8a57b519964dd.jpg",
     "static/media/Rotunda.png": "/static/media/Rotunda.354504624bc08877b916.png",
+    "static/media/conference2.jpg": "/static/media/conference2.a2d47b7fe6628b2137a3.jpg",
+    "static/media/conference.jpg": "/static/media/conference.7ea408e33af96663aae2.jpg",
     "index.html": "/index.html",
-    "main.1b14be33.css.map": "/static/css/main.1b14be33.css.map",
-    "main.025e73b3.js.map": "/static/js/main.025e73b3.js.map",
+    "main.4f7f35e5.css.map": "/static/css/main.4f7f35e5.css.map",
+    "main.921b23bb.js.map": "/static/js/main.921b23bb.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b14be33.css",
-    "static/js/main.025e73b3.js"
+    "static/css/main.4f7f35e5.css",
+    "static/js/main.921b23bb.js"
   ]
 }
