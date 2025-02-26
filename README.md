@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # To do's & possible improvements
 
-- Utilize API to add emails to listserv automatically
+- Create pages for sponsors, merch, alumni, and become a member
 
 # Bugs
