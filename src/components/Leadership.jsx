@@ -1,16 +1,16 @@
 import React from 'react';
 import "./Leadership.css";
-import pres from "../assets/Lanah Pheng.jpg";
-import exVP from "../assets/Justin Zheng.jpg";
-import inVP from "../assets/Jonathan Luu.jpg";
-import tres from "../assets/Jimmy Chen.jpg";
-import sec from "../assets/Eiman Sherzada.jpg";
-import mar from "../assets/Ken Fabia.jpg";
-import ep from "../assets/Vy Nguyen.jpg";
-import epc from "../assets/Femi Shaikh.jpg";
-import it1 from "../assets/Justin Park.jpg";
-import it2 from "../assets/Norah Lee.jpg";
-import it3 from "../assets/Salina Tran.jpg";
+import pres from "../assets/people/Lanah Pheng.jpg";
+import exVP from "../assets/people/Justin Zheng.jpg";
+import inVP from "../assets/people/Jonathan Luu.jpg";
+import tres from "../assets/people/Jimmy Chen.jpg";
+import sec from "../assets/people//Eiman Sherzada.jpg";
+import mar from "../assets/people/Ken Fabia.jpg";
+import ep from "../assets/people/Vy Nguyen.jpg";
+import epc from "../assets/people/Femi Shaikh.jpg";
+import it1 from "../assets/people/Justin Park.jpg";
+import it2 from "../assets/people/Norah Lee.jpg";
+import it3 from "../assets/people/Salina Tran.jpg";
 
 const Leadership = () => {
     const board = [
