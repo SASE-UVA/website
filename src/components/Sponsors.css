@@ -1,0 +1,71 @@
+sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.title {
+    color: #053770;
+    max-width: 80%;
+    flex: 1;
+}
+
+.content-list {
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.content-list li {
+    color: #FB5C02;
+    margin: 0;
+    padding: 0;
+}
+
+.interested-container {
+    display: flex;
+    align-items: stretch; 
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+.interested-text {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.interested-text h1 {
+    font-family: 'Cactus Classical Serif';
+    color: #053770;
+}
+
+.interested-text p {
+    color: #FB5C02;
+    flex-grow: 1;
+    font-size: 1.25rem;
+}
+
+.interested-pdf {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+}
+
+.interested-pdf iframe,
+.interested-pdf embed {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 500px;
+    border: none;
+}
