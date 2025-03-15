@@ -7,7 +7,7 @@ import Leadership from "./components/Leadership";
 import Events from "./components/Events";
 import Sponsors from "./components/Sponsors";
 // import Merch from "./components/Merch";
-// import Alumni from "./components/Alumni";
+import Alumni from "./components/Alumni";
 import Footer from "./components/Footer";
 import './index.css';
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/sponsors" element={<Sponsors />} />
         {/* <Route path="/merch" element={<Merch />} /> */}
-        {/* <Route path="/alumni" element={<Alumni />} /> */}
+        <Route path="/alumni" element={<Alumni />} />
       </Routes>
       <Footer />
     </Router>
