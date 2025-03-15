@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f7f35e5.css",
-    "main.js": "/static/js/main.921b23bb.js",
+    "main.css": "/static/css/main.93d77c33.css",
+    "main.js": "/static/js/main.70a76e48.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/DSC02766.jpg": "/static/media/DSC02766.adfddf2a1c2bb782bbdd.jpg",
     "static/media/DSC01112.jpg": "/static/media/DSC01112.f7230deda65ec7dc0de3.jpg",
@@ -20,6 +20,7 @@
     "static/media/Eiman Sherzada.jpg": "/static/media/Eiman Sherzada.5ab1148a5b81baa16423.jpg",
     "static/media/Norah Lee.jpg": "/static/media/Norah Lee.162a643e5789500d1d61.jpg",
     "static/media/Femi Shaikh.jpg": "/static/media/Femi Shaikh.865bb456c636c8100ede.jpg",
+    "static/media/Sponsorship Package 2025.pdf": "/static/media/Sponsorship Package 2025.863113fd748d3307d9f3.pdf",
     "static/media/Justin Zheng.jpg": "/static/media/Justin Zheng.bdcc1a5a4a18602efdcf.jpg",
     "static/media/Jimmy Chen.jpg": "/static/media/Jimmy Chen.1e3450415ec7c244b3ba.jpg",
     "static/media/Lanah Pheng.jpg": "/static/media/Lanah Pheng.1aedd857dfbd01fd1505.jpg",
@@ -33,12 +34,12 @@
     "static/media/conference2.jpg": "/static/media/conference2.a2d47b7fe6628b2137a3.jpg",
     "static/media/conference.jpg": "/static/media/conference.7ea408e33af96663aae2.jpg",
     "index.html": "/index.html",
-    "main.4f7f35e5.css.map": "/static/css/main.4f7f35e5.css.map",
-    "main.921b23bb.js.map": "/static/js/main.921b23bb.js.map",
+    "main.93d77c33.css.map": "/static/css/main.93d77c33.css.map",
+    "main.70a76e48.js.map": "/static/js/main.70a76e48.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7f35e5.css",
-    "static/js/main.921b23bb.js"
+    "static/css/main.93d77c33.css",
+    "static/js/main.70a76e48.js"
   ]
 }
