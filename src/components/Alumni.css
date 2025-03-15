@@ -1,0 +1,35 @@
+alumni {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.alumni-title {
+    color: #053770;
+    max-width: 80%;
+    flex: 1;
+}
+
+.alumni-title h1 {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
+}
+
+.alumni-title p {
+    margin-left: 5rem;
+}
+
+.twentyfour-twentyfive {
+    color: #FB5C02;
+    margin-left: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-size: 1.5rem;
+}
+
+.twentyfour-twentyfive h2 {
+    font-size: 1rem;
+}

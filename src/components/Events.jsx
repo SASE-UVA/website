@@ -7,11 +7,9 @@ const Events = () => {
 
     return (
         <events>
-            <motion.div className="title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
-                <div className="title">
-                    <h1>Upcoming Events</h1>
-                    <p>See what SASE at UVA is up to!</p>
-                </div>
+            <motion.div className="events-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+                <h1>Upcoming Events</h1>
+                <p>See what SASE at UVA is up to!</p>
             </motion.div>
             <div className="calendar">
                 <iframe

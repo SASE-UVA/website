@@ -1,0 +1,59 @@
+.merch {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.merch-title {
+    max-width: 80%;
+    flex: 1;
+}
+
+.merch-title h1 {
+    color: #FB5C02;
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
+}
+
+.merch-title p {
+    color: #053770;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+}
+
+.purchase {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.purchase p {
+    color: #053770;
+    margin: 1 1;
+}
+
+.merch-button {
+    background-color: white;
+    border-radius: 1rem;
+    border-color: #FB5C02;
+    width: auto;
+    cursor: pointer; 
+    color: #FB5C02;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    transition: background-color 0.4s ease;
+}
+
+.merch-button:hover {
+    background-color: #FB5C02;
+    color: white;
+}

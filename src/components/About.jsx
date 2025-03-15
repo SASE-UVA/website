@@ -7,7 +7,7 @@ import rotunda from "../assets/Rotunda.png"
 const About = () => {
     return (
         <about>
-            <motion.div className="title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+            <motion.div className="about-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
                 <h1>About Us</h1>
                 <ul className="content-list">
                     <li>The Society of Asian Scientists and Engineers (SASE) was founded in November 2007 

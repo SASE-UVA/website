@@ -4,13 +4,13 @@ events {
     align-items: left;
 }
 
-.title {
+.events-title {
     color: #FB5C02;
     max-width: 80%;
     flex: 1;
 }
 
-.title h1 {
+.events-title h1 {
     margin-left: 2rem;
     margin-bottom: 1.5rem;
     text-align: left;
@@ -20,7 +20,7 @@ events {
     font-weight: normal; 
 }
 
-.title p {
+.events-title p {
     margin-left: 2rem;
 }
 
@@ -54,29 +54,6 @@ events {
     font-size: 4rem;
     font-family: 'Cactus Classical Serif';
     font-weight: normal; 
-}
-
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    gap: .5rem;
-}
-
-.input-container input {
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: none;
-    background-color: #D1DAF8;
-    width: 70%;
 }
 
 .join-button {

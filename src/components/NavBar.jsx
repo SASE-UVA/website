@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from '../assets/Logo.jpg'
 import './Navbar.css';
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <nav className="navbar">
@@ -37,7 +38,9 @@ const NavBar = () => {
         <li>
           <NavLink to="/alumni" onClick={() => setMenuOpen(false)}>ALUMNI</NavLink>
         </li>
-        <button className="button">BECOME A MEMBER</button>
+        <button className="button" onClick={() => navigate("/membership")}>
+          BECOME A MEMBER
+        </button>
       </ul>
     </nav>
   );

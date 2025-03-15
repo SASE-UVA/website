@@ -3,16 +3,16 @@ home {
     flex-direction: column;
     justify-content: normal;
     gap: 0.5rem;
-    padding: 2rem 0;
+    padding: 0.75rem 0;
 }
 
-.title {
+.home-title {
     color: #FB5C02;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.title h1 {
+.home-title h1 {
     margin-left: 2rem;
     text-align: left;
     line-height: 1.1;
