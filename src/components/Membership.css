@@ -4,15 +4,25 @@ membership {
     align-items: left;
 }
 
-.title {
+.membership-title {
     color: #053770;
     max-width: 80%;
     flex: 1;
 }
 
-.title p {
+.membership-title h1 {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
+}
+
+.membership-title p {
     color: #FB5C02;
     font-size: 1.1rem;
+    margin-left: 2rem;
 }
 
 .join {

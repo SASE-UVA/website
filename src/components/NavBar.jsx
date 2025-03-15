@@ -32,9 +32,9 @@ const NavBar = () => {
         <li>
           <NavLink to="/sponsors" onClick={() => setMenuOpen(false)}>SPONSORS</NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink to="/merch" onClick={() => setMenuOpen(false)}>MERCH</NavLink>
-        </li> */}
+        </li>
         <li>
           <NavLink to="/alumni" onClick={() => setMenuOpen(false)}>ALUMNI</NavLink>
         </li>

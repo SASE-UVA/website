@@ -4,13 +4,13 @@ events {
     align-items: left;
 }
 
-.title {
+.events-title {
     color: #FB5C02;
     max-width: 80%;
     flex: 1;
 }
 
-.title h1 {
+.events-title h1 {
     margin-left: 2rem;
     margin-bottom: 1.5rem;
     text-align: left;
@@ -20,7 +20,7 @@ events {
     font-weight: normal; 
 }
 
-.title p {
+.events-title p {
     margin-left: 2rem;
 }
 

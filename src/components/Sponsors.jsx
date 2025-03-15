@@ -6,7 +6,7 @@ import sponsorpack from "../assets/Sponsorship Package 2025.pdf";
 const Sponsors = () => {
     return (
         <sponsors>
-            <motion.div className="title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+            <motion.div className="sponsors-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
                 <h1>Our Current Sponsors</h1>
             </motion.div>
             <motion.div className="content-list" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>

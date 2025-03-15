@@ -4,10 +4,19 @@ sponsors {
     align-items: left;
 }
 
-.title {
+.sponsors-title {
     color: #053770;
     max-width: 80%;
     flex: 1;
+}
+
+.sponsors-title h1 {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.1;
+    font-size: 4rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
 }
 
 .content-list {

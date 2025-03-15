@@ -6,7 +6,7 @@ import About from "./components/About";
 import Leadership from "./components/Leadership";
 import Events from "./components/Events";
 import Sponsors from "./components/Sponsors";
-// import Merch from "./components/Merch";
+import Merch from "./components/Merch";
 import Alumni from "./components/Alumni";
 import Footer from "./components/Footer";
 import Membership from "./components/Membership";
@@ -23,7 +23,7 @@ function App() {
         <Route path="/leadership" element={<Leadership />} />
         <Route path="/events" element={<Events />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        {/* <Route path="/merch" element={<Merch />} /> */}
+        <Route path="/merch" element={<Merch />} />
         <Route path="/alumni" element={<Alumni />} />
         <Route path="/membership" element={<Membership />} />
       </Routes>

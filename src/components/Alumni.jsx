@@ -5,7 +5,7 @@ import "./Alumni.css";
 const Alumni = () => {
     return (
         <alumni>
-            <motion.div className="title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+            <motion.div className="alumni-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
                 <h1>Alumni</h1>
                 <p>Our alumni are a testament to the impact of SASE. They continue to excel in their careers and give back 
                     to the community, serving as mentors, speakers, and advocates for our mission. Stay connected with UVA
