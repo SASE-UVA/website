@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # To do's & possible improvements
 
-- Create pages for sponsors, merch, alumni, and become a member
+- Update merch and alumni pages when new info is given
+- Make mobile view more responsive
+- Create issues for future enhancements
 
 # Bugs
