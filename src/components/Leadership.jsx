@@ -20,8 +20,8 @@ const Leadership = () => {
             title: "President",
             name: "Lanah Pheng",
             year: "4th Year",
-            major: "Computer Science (BS)",
-            email: "johndoe@gmail.com",
+            major: "Computer Science",
+            email: "dmt9xb@virginia.edu",
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const Leadership = () => {
             name: "Justin Zheng",
             year: "4th Year",
             major: "Systems Engineering",
-            email: "johndoe@gmail.com",
+            email: "jzd4vb@virginia.edu",
         },
         {
             id: 3,
@@ -38,8 +38,8 @@ const Leadership = () => {
             title: "Internal VP",
             name: "Jonathan Luu",
             year: "4th Year",
-            major: "Applied Stat & Environmental Science",
-            email: "johndoe@gmail.com",
+            major: "Applied Statistics & Environmental Science",
+            email: "ktx2nb@virginia.edu",
         },
         {
             id: 4,
@@ -48,7 +48,7 @@ const Leadership = () => {
             name: "Jimmy Chen",
             year: "3rd Year",
             major: "Mechanical Engineering",
-            email: "johndoe@gmail.com",
+            email: "mnz3xz@virginia.edu",
         },
         {
             id: 5,
@@ -57,34 +57,34 @@ const Leadership = () => {
             name: "Eiman Sherzada",
             year: "2nd Year",
             major: "Computer Science",
-            email: "johndoe@gmail.com",
+            email: "vdx8fg@virginia.edu",
         },
         {
             id: 6,
             src: mar,
-            title: "Marketing Director",
-            name: "Ken Fabia",
+            title: "Public Relations Chair",
+            name: "Ken Michael Fabia",
             year: "3rd Year",
             major: "Electrical and Computer Engineering",
-            email: "johndoe@gmail.com",
+            email: "jnw7qm@virginia.edu",
         },
         {
             id: 7,
             src: ep,
-            title: "Event Planner",
+            title: "Event Planning Chair",
             name: "Vy Nguyen",
             year: "2nd Year",
             major: "Chemical Engineering",
-            email: "johndoe@gmail.com",
+            email: "bcx4qf@virginia.edu",
         },
         {
             id: 8,
             src: epc,
-            title: "Event PC",
+            title: "Event Planning Chair",
             name: "Femi Shaikh",
             year: "3rd Year",
             major: "Biochemistry",
-            email: "johndoe@gmail.com",
+            email: "xxh8wp@virginia.edu",
         },
     ]
 
@@ -96,7 +96,7 @@ const Leadership = () => {
             name: "Justin Park",
             year: "4th Year",
             major: "Computer Science",
-            email: "johndoe@gmail.com",
+            email: "ysr9dj@virginia.edu",
         },
         {
             id: 2,
@@ -105,7 +105,7 @@ const Leadership = () => {
             name: "Norah Lee",
             year: "3rd Year",
             major: "Computer Science",
-            email: "johndoe@gmail.com",
+            email: "mbv7xs@virginia.edu",
         },
         {
             id: 3,
@@ -114,7 +114,7 @@ const Leadership = () => {
             name: "Salina Tran",
             year: "3rd Year",
             major: "Computer Engineering",
-            email: "johndoe@gmail.com",
+            email: "hyd4cz@virginia.edu",
         },
 
     ]
@@ -124,7 +124,6 @@ const Leadership = () => {
             <div className="title">
                 <h1>2024-2025</h1>
                 <h2>UVA SASE Leadership</h2>
-                <p>Meet our wonderful board!</p>
             </div>
 
             {/* Leadership content */}
@@ -138,7 +137,7 @@ const Leadership = () => {
                             <h2>{member.title}</h2>
                             <p>{member.year}</p>
                             <p>{member.major}</p>
-                            
+                            <p>{member.email}</p>
                         </div>
                     ))}
                 </div>
@@ -151,6 +150,7 @@ const Leadership = () => {
                         <h2>{member.title}</h2>
                         <p>{member.year}</p>
                         <p>{member.major}</p>
+                        <p>{member.email}</p>
                         </div>
                     ))}
                 </div>

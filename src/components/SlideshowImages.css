@@ -3,24 +3,25 @@
     margin: 0 auto;
     border: 1rem solid white;
     padding: 1.5rem;
+    padding-bottom: 3rem;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
-    display: flex; /* Enables flexbox */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide {
-    display: flex; /* Enables flexbox inside slides */
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slideshow-image {
-    max-width: 100%; /* Ensures image fits within the container */
-    max-height: 100%; /* Adjust this based on your preferred height */
-    object-fit: contain; /* Ensures entire image is visible */
-    display: block; /* Removes extra space below images */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
 }
