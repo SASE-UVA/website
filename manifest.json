@@ -1,14 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SASE@UVA",
+  "name": "SASE@UVA Website",
   "icons": [
     {
-      "src": "UVA_SASE.png",
+      "src": "/UVA_SASE.png",
       "type": "image/png",
       "sizes": "500x500"
+    },
+    {
+      "src": "/UVA_SASE-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/UVA_SASE-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
