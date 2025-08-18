@@ -33,6 +33,16 @@ leadership .title h2 {
     font-weight: bold; 
  }
 
+leadership .title h3 {
+    color: #FB5C02;
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+    line-height: 1.1;
+    font-size: 3rem;
+    font-family: 'Cactus Classical Serif';
+    font-weight: bold; 
+ }
+
 leadership .title p {
     color: #053770;
     text-align: center;
@@ -40,7 +50,7 @@ leadership .title p {
     margin-top: 0.5rem;
 }
 
-.title h1, .title h2, .title p {
+.title h1, .title h2, .title h3, .title p {
     opacity: 0;
     transform: translateY(30px);
     animation: fadeInUp 1s ease-out forwards;
@@ -52,6 +62,10 @@ leadership .title p {
 
 .title h2 {
     animation-delay: 0.4s;
+}
+
+.title h3 {
+    animation-delay: 0.6s;
 }
 
 .title p {

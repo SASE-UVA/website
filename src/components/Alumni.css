@@ -33,3 +33,116 @@ alumni {
 .twentyfour-twentyfive h2 {
     font-size: 1rem;
 }
+
+.people h1{
+    color: #FB5C02;
+    font-family: 'Cactus Classical Serif';
+    font-weight: normal; 
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rounded-img {
+    width: 100%;
+    max-width: 150px; 
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #FB5C02;
+    margin-top: 3rem;
+}
+
+.member h1 {
+    color: black;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    line-height: 1.1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.member h2 {
+    color: #053770;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    line-height: 1.1;
+    font-size: 1.1rem;
+    font-weight: bold; 
+}
+
+.member p {
+    color: #053770;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+    line-height: 1.1;
+    font-size: 1rem;
+    font-weight: normal; 
+    min-height: 1.5rem;
+}
+
+.member {
+    opacity: 0; 
+    transform: translateY(30px); 
+    animation: fadeInUp 1s ease-out forwards; 
+}
+
+.member img {
+    animation-delay: 0.6s;
+    transition: transform 0.3s ease;
+}
+
+.member img:hover {
+    transform: scale(1.1); 
+}
+
+.officer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+}
+
+.officer-grid .member:last-child {
+    margin-bottom: 4rem;
+}
+
+.intern-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+}
+
+.intern-grid .member:last-child {
+    margin-bottom: 4rem;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Adjust for small screens */
+@media (max-width: 768px) {
+    .officer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Adjust for extra small screens */
+@media (max-width: 480px) {
+    .officer-grid {
+        grid-template-columns: 1fr; 
+    }
+    .intern-grid {
+        grid-template-columns: 1fr; 
+    }
+}
