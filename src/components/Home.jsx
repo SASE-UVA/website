@@ -2,9 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import "./Home.css";
-import sase1 from "../assets/boston.jpg";
-import sase2 from "../assets/conference.jpg";
-import sase3 from "../assets/conference2.jpg";
+import sase1 from "../assets/conference2.jpg";
+import sase2 from "../assets/graduation.jpg";
+import sase3 from "../assets/event.jpg";
+import sase4 from "../assets/conference.jpg";
 
 const Home = () => {
     return (
@@ -24,9 +25,51 @@ const Home = () => {
             
             </motion.div>
             
-            <motion.img src={sase1} className="boston" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/>
-            <motion.img src={sase2} className="conference" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/>
-            <motion.img src={sase3} className="conference2" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/>
+            {/* <motion.img src={sase1} className="conference2" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/>
+            <motion.img src={sase2} className="graduation" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/> */}
+
+            
+            <div className="image-row">
+                <motion.img 
+                    src={sase1} 
+                    className="conference2" 
+                    alt="Conference 2"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeOut" }}
+                    viewport={{ once: true }}
+                />
+                <motion.img 
+                    src={sase2} 
+                    className="graduation" 
+                    alt="Graduation"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeOut" }}
+                    viewport={{ once: true }}
+                />
+            </div>
+
+            <div className="image-row">
+                <motion.img 
+                    src={sase4} 
+                    className="conference" 
+                    alt="Conference"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeOut" }}
+                    viewport={{ once: true }}
+                />
+                <motion.img 
+                    src={sase3} 
+                    className="event" 
+                    alt="Event"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeOut" }}
+                    viewport={{ once: true }}
+                />
+            </div>
 
             <motion.div className="info" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}>
                 <h1>HOO ARE WE?</h1>

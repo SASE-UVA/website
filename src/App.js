@@ -10,6 +10,7 @@ import Merch from "./components/Merch";
 import Alumni from "./components/Alumni";
 import Footer from "./components/Footer";
 import Membership from "./components/Membership";
+import Archive from "./components/Archive";
 import './index.css';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/merch" element={<Merch />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="/archive" element={<Archive />} />
         <Route path="/membership" element={<Membership />} />
       </Routes>
       <Footer />

@@ -1,16 +1,16 @@
 import React from 'react';
 import "./Leadership.css";
-// import pres from "../assets/people/24-25/Lanah Pheng.jpg";
-// import exVP from "../assets/people/24-25/Justin Zheng.jpg";
-// import inVP from "../assets/people/24-25/Jonathan Luu.jpg";
-// import tres from "../assets/people/24-25/Jimmy Chen.jpg";
-// import sec from "../assets/people/24-25/Eiman Sherzada.jpg";
-// import mar from "../assets/people/24-25/Ken Fabia.jpg";
-// import ep from "../assets/people/24-25/Vy Nguyen.jpg";
-// import epc from "../assets/people/24-25/Femi Shaikh.jpg";
-// import it1 from "../assets/people/24-25/Justin Park.jpg";
-// import it2 from "../assets/people/24-25/Norah Lee.jpg";
-// import it3 from "../assets/people/24-25/Salina Tran.jpg";
+import pres from "../assets/people/24-25/Lanah Pheng.jpg";
+import exVP from "../assets/people/24-25/Justin Zheng.jpg";
+import inVP from "../assets/people/24-25/Jonathan Luu.jpg";
+import tres from "../assets/people/24-25/Jimmy Chen.jpg";
+import sec from "../assets/people/24-25/Eiman Sherzada.jpg";
+import mar from "../assets/people/24-25/Ken Fabia.jpg";
+import ep from "../assets/people/24-25/Vy Nguyen.jpg";
+import epc from "../assets/people/24-25/Femi Shaikh.jpg";
+import it1 from "../assets/people/24-25/Justin Park.jpg";
+import it2 from "../assets/people/24-25/Norah Lee.jpg";
+import it3 from "../assets/people/24-25/Salina Tran.jpg";
 
 const Leadership = () => {
     // const board = [
@@ -126,8 +126,6 @@ const Leadership = () => {
                 <h2>UVA SASE Leadership</h2>
                 <h3>Coming Soon!</h3>
             </div>
-
-            {/* Leadership content */}
             {/* <div className="people">
                 <h1>Officer Board</h1>
                 <div className="officer-grid">

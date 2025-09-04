@@ -38,6 +38,9 @@ const NavBar = () => {
         <li>
           <NavLink to="/alumni" onClick={() => setMenuOpen(false)}>ALUMNI</NavLink>
         </li>
+        <li>
+          <NavLink to="/archive" onClick={() => setMenuOpen(false)}>ARCHIVE</NavLink>
+        </li>
         <button className="button" onClick={() => navigate("/membership")}>
           BECOME A MEMBER
         </button>
