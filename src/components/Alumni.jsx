@@ -23,7 +23,7 @@ const alumni = [
 
 const Alumni = () => {
     return (
-        <alumni>
+        <div className="alumni">
             <motion.div 
             className="alumni-title" 
             initial={{ opacity: 0, y: 30 }} 
@@ -34,8 +34,12 @@ const Alumni = () => {
                     to the community, serving as mentors, speakers, and advocates for our mission. Stay connected with UVA
                     SASE and help inspire the next generation.</p>
             </motion.div>
-
-            <div className="twentyfour-twentyfive">
+            
+            <motion.div
+            className="twentyfour-twentyfive" 
+            initial={{ opacity: 0, y: 30 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 1, ease: "easeOut" }}>
                 <h1>Class of 2025</h1>
                 <div className="officer-grid">
                     {alumni.map((member) => (
@@ -45,9 +49,9 @@ const Alumni = () => {
                             <p>{member.major}</p>
                         </div>
                     ))}
-                    </div>
-                   </div>
-        </alumni>
+                </div>
+            </motion.div>
+        </div>
     )
 }
 
