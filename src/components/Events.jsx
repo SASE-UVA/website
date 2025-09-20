@@ -9,7 +9,11 @@ const Events = () => {
         <events>
             <motion.div className="events-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
                 <h1>Upcoming Events</h1>
-                <p>See what SASE at UVA is up to!</p>
+                <p>Our events are at the heart of what we do, bringing together students to celebrate culture, 
+                    building professional skills, and strengthening our community. <br /> 
+                    Whether through social gatherings, workshops, or cultural celebrations, our members connect with 
+                    one another while creating memories that last beyond the classroom. These moments allow us to share 
+                    experiences, support one another, and grow together as leaders in STEM and beyond.</p> <br />
             </motion.div>
             <div className="calendar">
                 <iframe
