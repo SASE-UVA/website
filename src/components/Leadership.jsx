@@ -115,7 +115,7 @@ const Leadership = () => {
             title: "Historian",
             name: "Hannah Duong",
             year: "4th year",
-            major: "Electrical & Computer Engineering",
+            major: "Electrica & Computer Engineering",
             email: "faw4bh@virginia.edu"
 
         },

@@ -134,7 +134,7 @@ leadership .title p {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-20px)
+    transform: translateY(-25px)
 }
 
 .img-wrapper img {

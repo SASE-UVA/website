@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import "./About.css";
 import rotunda from "../assets/Rotunda.png"
+import professionalImg from "../assets/profimg.JPG";
+import communityImg from "../assets/commimg.JPG";
+import diversityImg from "../assets/divimg.JPG";
 
 
 const About = () => {
@@ -13,6 +16,7 @@ const About = () => {
                     <li>The Society of Asian Scientists and Engineers (SASE) was founded in November 2007 
                         to support Asian heritage scientists and engineers in reaching their full potential. SASE 
                         aims to prepare leaders, celebrate diversity, and provide a sense of belonging in STEM fields.</li>
+                        <br />
                     <li>At UVA, we embody this mission by offering programs and opportunities that empower students to
                         grow personally, professionally, and academically while fostering an inclusive environment</li>
                 </ul>
@@ -23,34 +27,45 @@ const About = () => {
         
             <div className="mission">
                 <h1>Our Mission</h1>
-                <p>To be both <strong><em>good</em></strong> and <strong><em>great</em></strong>, empowering diverse leaders
-                   to innovate, inspire, and <br/>create meaningful impact - where the pursuit of knowledge and community drives 
-                   <br/><strong><em>progress</em></strong></p>
+                <p>
+                    To cultivate and empower diverse leaders who <strong><em>innovate, inspire, and create </em></strong>meaningful impact
+                    <br /> — <br />
+                    where the pursuit of <strong><em>knowledge, collaboration, and community </em></strong> drives progress.</p>
             </div>
 
-            <div className="professional">
-                <h1>Professional</h1>
-                <p>We equip our members with the skills and resources needed to succeed in their careers.
-                    Through resume workshops, networking events, mock interviews, and mentorship opportunities,
-                    SASE helps students build confidence and connect with industry professionals.
-                </p>
+            <div className="highlight professional">
+                <img src={professionalImg} alt="Professional" className="highlight-img" />
+                <div className="highlight-text">
+                    <h1>Professional</h1>
+                    <p>We equip our members with the skills and resources needed to succeed in their careers.
+                        Through resume workshops, networking events, mock interviews, and mentorship opportunities,
+                        SASE helps students build confidence and connect with industry professionals.
+                    </p>
+                </div>
             </div>
 
-            <div className="community">
-                <h1>Community</h1>
-                <p>At SASE, we believe in fostering a sense of belonging. We host events and initiatives that bring people
-                    together, encouraging collaboration, support, and lasting friendships. Our community is a space for members to grow
-                    alongside peers who share similar goals and challenges.
-                </p>
+            <div className="highlight community">
+                <img src={communityImg} alt="Community" className="highlight-img" />
+                <div className="highlight-text">
+                    <h1>Community</h1>
+                    <p>At SASE, we believe in fostering a sense of belonging. We host events and initiatives that bring people
+                        together, encouraging collaboration, support, and lasting friendships. Our community is a space for members to grow
+                        alongside peers who share similar goals and challenges.
+                    </p>
+                </div>
             </div>
 
-            <div className="diversity">
-                <h1>Diversity</h1>
-                <p>Diversity is at the core of everything we do. We celebrate our members' unique perspectives and experiences
-                    and promote inclusion and equity in STEM fields. By embracing cultural differences and advocating for underrepresented
-                    voices, we aim to create a future where everyone feels empowered to contribute and succeed.
-                </p>
+            <div className="highlight diversity">
+                <img src={diversityImg} alt="Diversity" className="highlight-img" />
+                <div className="highlight-text">
+                    <h1>Diversity</h1>
+                    <p>Diversity is at the core of everything we do. We celebrate our members' unique perspectives and experiences
+                        and promote inclusion and equity in STEM fields. By embracing cultural differences and advocating for underrepresented
+                        voices, we aim to create a future where everyone feels empowered to contribute and succeed.
+                    </p>
+                </div>
             </div>
+
         </about>
     );
 };

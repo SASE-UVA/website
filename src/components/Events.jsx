@@ -13,7 +13,7 @@ const Events = () => {
             </motion.div>
             <div className="calendar">
                 <iframe
-                    src="https://calendar.google.com/calendar/embed?src=d9850f37f4af0b1bf020e4e1e4480d650477f828eaf0da1d81cf37068f9fcbf8%40group.calendar.google.com&ctz=America%2FNew_York"
+                    src="https://calendar.google.com/calendar/embed?src=uvasaseevents%40gmail.com&ctz=America%2FNew_Yorks"
                     style={{ border: 0, width: '100%', height: '600px' }}
                     title="Google Calendar">
                 </iframe>

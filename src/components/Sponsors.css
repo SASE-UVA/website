@@ -4,6 +4,26 @@ sponsors {
     align-items: left;
 }
 
+.sponsor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.sponsor-logo img {
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.sponsor-logo img:hover {
+    transform: scale(1.1);
+}
+
+
 .sponsors-title {
     color: #053770;
     max-width: 80%;

@@ -3,19 +3,39 @@ import { motion } from 'framer-motion';
 import "./Sponsors.css";
 import sponsorpack from "../assets/Sponsorship Package 2025.pdf";
 
+import logo1 from "../assets/Sponsors/Dominion Energy.png";
+
 const Sponsors = () => {
+    const sponsorLogos = [logo1];
+
     return (
         <sponsors>
-            <motion.div className="sponsors-title" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+            <motion.div
+                className="sponsors-title"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+            >
                 <h1>Our Current Sponsors</h1>
             </motion.div>
-            <motion.div className="content-list" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
-                <li>We are proud to collaborate with organizations that share our mission of empowering the next generation of
-                    STEM leaders.</li>
-                <li>Through their generous support, our sponsors enable us to provide impactful programs, host meaningful events,
-                    and create valuable opportunities for our members.</li>
-            </motion.div>
 
+            <motion.div
+                className="sponsor-grid"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+            >
+                {sponsorLogos.map((logo, index) => (
+                    <div key={index} className="sponsor-logo">
+                        <img src={logo} alt={`Sponsor ${index + 1}`} />
+                    </div>
+                ))}
+            </motion.div>
+            
+             <motion.div className="content-list" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}>
+                <li>We sincerely thank our generous sponsors for supporting SASE and empowering the next generation of STEM leaders. Their commitment helps us provide meaningful programs, host impactful events, and create valuable opportunities for our members. We are proud to collaborate with organizations that share our mission of inspiring and cultivating future innovators.</li>
+            </motion.div>
+            
             <div className="interested-container">
                 <div className="interested-text">
                     <h1>Interested in becoming a sponsor?</h1>
@@ -28,8 +48,6 @@ const Sponsors = () => {
                     <iframe src={sponsorpack} title="Sponsorship Package" frameBorder="0"></iframe>
                 </div>
             </div>
-
-
         </sponsors>
     )
 }
