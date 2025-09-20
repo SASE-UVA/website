@@ -1,159 +1,187 @@
 import React from 'react';
 import "./Leadership.css";
-import pres from "../assets/people/24-25/Lanah Pheng.jpg";
-import exVP from "../assets/people/24-25/Justin Zheng.jpg";
-import inVP from "../assets/people/24-25/Jonathan Luu.jpg";
-import tres from "../assets/people/24-25/Jimmy Chen.jpg";
-import sec from "../assets/people/24-25/Eiman Sherzada.jpg";
-import mar from "../assets/people/24-25/Ken Fabia.jpg";
-import ep from "../assets/people/24-25/Vy Nguyen.jpg";
-import epc from "../assets/people/24-25/Femi Shaikh.jpg";
-import it1 from "../assets/people/24-25/Justin Park.jpg";
-import it2 from "../assets/people/24-25/Norah Lee.jpg";
-import it3 from "../assets/people/24-25/Salina Tran.jpg";
+import pres from "../assets/people/25-26/Femi Shaikh.JPG";
+import exVP from "../assets/people/25-26/Ken Michael Fabia.JPG";
+import inVP from "../assets/people/25-26/Eiman Sherzada.JPG";
+import tres from "../assets/people/25-26/Jacky Zheng.JPG";
+import sec from "../assets/people/25-26/Victoria Lam.JPG";
+import prc from "../assets/people/25-26/Nicole Chowdhury.JPG";
+import ep from "../assets/people/25-26/Vy Nguyen.JPG";
+import epc from "../assets/people/25-26/Kate-Lin Ly.JPG";
+import mem from "../assets/people/25-26/Elijah Hernandez.JPG";
+import mkc from "../assets/people/25-26/Norah Lee.JPG";
+import his from "../assets/people/25-26/Hannah Duong.JPG";
+import web from "../assets/people/25-26/Rohan Chhahira.JPG"; 
+import con1 from "../assets/people/25-26/Lyle Mora.JPG";
+import con2 from "../assets/people/25-26/Jimmy Chen.JPG";
+import con3 from "../assets/people/25-26/Nina Li.JPG";
 
 const Leadership = () => {
-    // const board = [
-    //     {
-    //         id: 1,
-    //         src: pres,
-    //         title: "President",
-    //         name: "Lanah Pheng",
-    //         year: "4th Year",
-    //         major: "Computer Science",
-    //         email: "dmt9xb@virginia.edu",
-    //     },
-    //     {
-    //         id: 2,
-    //         src: exVP,
-    //         title: "External VP",
-    //         name: "Justin Zheng",
-    //         year: "4th Year",
-    //         major: "Systems Engineering",
-    //         email: "jzd4vb@virginia.edu",
-    //     },
-    //     {
-    //         id: 3,
-    //         src: inVP,
-    //         title: "Internal VP",
-    //         name: "Jonathan Luu",
-    //         year: "4th Year",
-    //         major: "Applied Statistics & Environmental Science",
-    //         email: "ktx2nb@virginia.edu",
-    //     },
-    //     {
-    //         id: 4,
-    //         src: tres,
-    //         title: "Treasurer",
-    //         name: "Jimmy Chen",
-    //         year: "3rd Year",
-    //         major: "Mechanical Engineering",
-    //         email: "mnz3xz@virginia.edu",
-    //     },
-    //     {
-    //         id: 5,
-    //         src: sec,
-    //         title: "Secretary",
-    //         name: "Eiman Sherzada",
-    //         year: "2nd Year",
-    //         major: "Computer Science",
-    //         email: "vdx8fg@virginia.edu",
-    //     },
-    //     {
-    //         id: 6,
-    //         src: mar,
-    //         title: "Public Relations Chair",
-    //         name: "Ken Michael Fabia",
-    //         year: "3rd Year",
-    //         major: "Electrical and Computer Engineering",
-    //         email: "jnw7qm@virginia.edu",
-    //     },
-    //     {
-    //         id: 7,
-    //         src: ep,
-    //         title: "Event Planning Chair",
-    //         name: "Vy Nguyen",
-    //         year: "2nd Year",
-    //         major: "Chemical Engineering",
-    //         email: "bcx4qf@virginia.edu",
-    //     },
-    //     {
-    //         id: 8,
-    //         src: epc,
-    //         title: "Event Planning Chair",
-    //         name: "Femi Shaikh",
-    //         year: "3rd Year",
-    //         major: "Biochemistry",
-    //         email: "xxh8wp@virginia.edu",
-    //     },
-    // ]
+    const board = [
+        {
+            id: 1,
+            src: pres,
+            title: "President",
+            name: "Femi Shaikh",
+            year: "4th Year",
+            major: "Biochemistry & Psychology",
+            email: "xxh8wp@virginia.edu",
+        },
+        {
+            id: 2,
+            src: exVP,
+            title: "External VP",
+            name: "Ken Michael Fabia",
+            year: "4th Year",
+            major: "Electrical Engineering",
+            email: "jnw7qm@virginia.edu",
+        },
+        {
+            id: 3,
+            src: inVP,
+            title: "Internal VP",
+            name: "Eiman Sherzada",
+            year: "3rd Year",
+            major: "Computer Science",
+            email: "vdx8fg@virginia.edu",
+        },
+        {
+            id: 4,
+            src: tres,
+            title: "Treasurer",
+            name: "Jacky Zheng",
+            year: "3rd Year",
+            major: "Mechanical & Aerospace Engineering",
+            email: "bww8jx@virginia.edu",
+        },
+        {
+            id: 5,
+            src: sec,
+            title: "Secretary",
+            name: "Victoria Lam",
+            year: "3rd Year",
+            major: "Biomedical Engineering",
+            email: "kze4za@virginia.edu",
+        },
+        {
+            id: 6,
+            src: prc,
+            title: "Public Relations Chair",
+            name: "Nicole Chowdhury",
+            year: "3rd Year",
+            major: "BS Environmental Chemistry",
+            email: "dys6fm@virginia.edu",
+        },
+        {
+            id: 7,
+            src: ep,
+            title: "Event Planning Chair",
+            name: "Vy Nguyen",
+            year: "3rd Year",
+            major: "Chemical Engineering",
+            email: "bcx4qf@virginia.edu",
+        },
+        {
+            id: 8,
+            src: epc,
+            title: "Event Planning Chair",
+            name: "Kate-Lin Ly",
+            year: "3rd Year",
+            major: "Biochemistry",
+            email: "vvu5wm@virginia.edu",
+        },
+        {
+            id: 9,
+            src: mem, 
+            title: "Membership Chair",
+            name: "Elijah Hernandez",
+            year: "4th Year",
+            major: "Mechanical Engineering",
+            email: "ewe5mv@virginia.edu",
+        },
+        {
+            id: 10,
+            src: mkc,
+            title: "Marketing Chair",
+            name: "Norah Lee",
+            year: "4th year",
+            major: "Computer Science",
+            email: "mbv7xs@virginia.edu"
+        },
+    
+        {
+            id: 11, 
+            src: his, 
+            title: "Historian",
+            name: "Hannah Duong",
+            year: "4th year",
+            major: "Electrical & Computer Engineering",
+            email: "faw4bh@virginia.edu"
 
-    // const interns = [
-    //     {
-    //         id: 1,
-    //         src: it1,
-    //         title: "Webmaster Intern",
-    //         name: "Justin Park",
-    //         year: "4th Year",
-    //         major: "Computer Science",
-    //         email: "ysr9dj@virginia.edu",
-    //     },
-    //     {
-    //         id: 2,
-    //         src: it2,
-    //         title: "Webmaster Intern",
-    //         name: "Norah Lee",
-    //         year: "3rd Year",
-    //         major: "Computer Science",
-    //         email: "mbv7xs@virginia.edu",
-    //     },
-    //     {
-    //         id: 3,
-    //         src: it3,
-    //         title: "Marketing Intern",
-    //         name: "Salina Tran",
-    //         year: "3rd Year",
-    //         major: "Computer Engineering",
-    //         email: "hyd4cz@virginia.edu",
-    //     },
+        },
+        {
+            id: 12, 
+            src: web,
+            title: "Webmaster",
+            name: "Rohan Chhahira",
+            year: "3rd Year",
+            major: "Computer Science",
+            email: "fbt2gt@virginia.edu",
+        },
+        {
+            id: 13, 
+            src: con1,
+            title: "Conference Chair",
+            name: "Lyle Mora",
+            year: "2nd Year",
+            major: "Systems Engineering",
+            email: "fsu5gn@virginia.edu",
+        },
+         {
+            id: 14, 
+            src: con2,
+            title: "Conference Chair",
+            name: "Jimmy Chen",
+            year: "4th Year",
+            major: "Mechanical Engineering",
+            email: "mnz3xz@virginia.edu",
+        },
+         {
+            id: 15, 
+            src: con3,
+            title: "Conference Chair",
+            name: "Nina Li",
+            year: "4th Year",
+            major: "Computer Science",
+            email: "ady7ry@virginia.edu",
+        }
+        
+    ]
 
-    // ]
     
     return (
         <leadership>
             <div className="title">
                 <h1>2025-2026</h1>
                 <h2>UVA SASE Leadership</h2>
-                <h3>Coming Soon!</h3>
             </div>
-            {/* <div className="people">
+            <div className="people">
                 <h1>Officer Board</h1>
                 <div className="officer-grid">
-                    {board.map((member) => (
-                        <div key={member.id} className="member">
-                            <img src={member.src} alt={member.name} className="rounded-img" />
-                            <h1>{member.name}</h1>
-                            <h2>{member.title}</h2>
-                            <p>{member.year}</p>
-                            <p>{member.major}</p>
-                            <p>{member.email}</p>
-                        </div>
-                    ))}
+                {board.map((member) => (
+                    <div className="member">
+                <div className="img-wrapper">
+                    <img src={member.src} alt={member.name} className="rounded-img" />
                 </div>
-                <h1>Interns</h1>
-                <div className="intern-grid">
-                    {interns.map((member) => (
-                        <div key={member.id} className="member">
-                        <img src={member.src} alt={member.name} className="rounded-img" />
-                        <h1>{member.name}</h1>
-                        <h2>{member.title}</h2>
-                        <p>{member.year}</p>
-                        <p>{member.major}</p>
-                        <p>{member.email}</p>
-                        </div>
-                    ))}
+                <h1>{member.name}</h1>
+                <h2>{member.title}</h2>
+                <p>{member.year}</p>
+                <p>{member.major}</p>
+                <p>{member.email}</p>
                 </div>
-            </div> */}
+                ))}
+                </div>
+            </div>
         </leadership>
     );
 };

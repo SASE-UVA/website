@@ -92,6 +92,20 @@
     text-align: center;
 }
 
+.people > h1 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.people > h1:nth-of-type(1) {
+    animation-delay: 0.8s; /* Officer Board */
+}
+
+.people > h1:nth-of-type(2) {
+    animation-delay: 1s; /* Interns */
+}
+
 .rounded-img {
     width: 100%;
     max-width: 150px; 
