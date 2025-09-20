@@ -104,7 +104,7 @@ const Leadership = () => {
             src: mkc,
             title: "Marketing Chair",
             name: "Norah Lee",
-            year: "4th year",
+            year: "4th Year",
             major: "Computer Science",
             email: "mbv7xs@virginia.edu"
         },
@@ -114,8 +114,8 @@ const Leadership = () => {
             src: his, 
             title: "Historian",
             name: "Hannah Duong",
-            year: "4th year",
-            major: "Electrica & Computer Engineering",
+            year: "4th Year",
+            major: "Electrical & Computer Engineering",
             email: "faw4bh@virginia.edu"
 
         },
