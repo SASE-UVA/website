@@ -4,9 +4,10 @@ import "./Sponsors.css";
 import sponsorpack from "../assets/Sponsorship Package 2025.pdf";
 
 import logo1 from "../assets/Sponsors/Dominion Energy.png";
+import logo2 from "../assets/Sponsors/Blue Origin.jpg"
 
 const Sponsors = () => {
-    const sponsorLogos = [logo1];
+    const sponsorLogos = [logo1, logo2];
 
     return (
         <sponsors>
