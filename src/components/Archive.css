@@ -160,13 +160,18 @@
 }
 
 .officer-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    justify-items: center;
+}
+
+.officer-grid .member {
+    width: calc(25% - 2rem);
+    min-width: 200px;
 }
 
 .officer-grid .member:last-child {
@@ -174,13 +179,18 @@
 }
 
 .intern-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    justify-items: center;
+}
+
+.intern-grid .member {
+    width: calc(33.333% - 2rem);
+    min-width: 200px;
 }
 
 .intern-grid .member:last-child {

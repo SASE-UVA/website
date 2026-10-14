@@ -1,166 +1,184 @@
 import React from 'react';
 import "./Leadership.css";
-import pres from "../assets/people/25-26/circle shots/Femi.png";
-import exVP from "../assets/people/25-26/circle shots/Ken.png";
-import inVP from "../assets/people/25-26/circle shots/Eiman.png";
-import tres from "../assets/people/25-26/circle shots/Jacky.png";
-import sec from "../assets/people/25-26/circle shots/Victoria.png";
-import prc from "../assets/people/25-26/circle shots/Nicole.png";
-import ep from "../assets/people/25-26/circle shots/Vy.png";
-import epc from "../assets/people/25-26/circle shots/Kate-lin.png";
-import mem from "../assets/people/25-26/circle shots/Elijah.png";
-import mkc from "../assets/people/25-26/circle shots/Norah.png";
-import his from "../assets/people/25-26/circle shots/Hannah.png";
-import web from "../assets/people/25-26/circle shots/Rohan.png"; 
-import con1 from "../assets/people/25-26/circle shots/Lyle.png";
-import con2 from "../assets/people/25-26/circle shots/Jimmy.png";
-import con3 from "../assets/people/25-26/circle shots/Nina.png";
+import pres1 from "../assets/people/26-27/Vy.jpg";
+import pres2 from "../assets/people/26-27/Victoria.jpg";
+import vp from "../assets/people/26-27/Eiman.jpg";
+import sec from "../assets/people/26-27/Chau.jpg";
+import tres from "../assets/people/26-27/Jacky.jpg";
+import epc1 from "../assets/people/26-27/Grace.jpg";
+import epc2 from "../assets/people/26-27/Phoebe.jpg";
+import conf1 from "../assets/people/26-27/Lyle.jpg";
+import conf2 from "../assets/people/26-27/Gavin.jpg";
+import mem from "../assets/people/26-27/Chloe.jpg";
+import adv from "../assets/people/26-27/Deeya.jpg";
+import alum from "../assets/people/26-27/Sadat.jpg";
+import spons from "../assets/people/26-27/Christine.jpg";
+import prc from "../assets/people/26-27/Ahmad.jpg";
+import mkc from "../assets/people/26-27/Mysha.jpg";
+import his from "../assets/people/26-27/Leah.jpg";
+import web from "../assets/people/26-27/Rohan.jpg";
+
 
 const Leadership = () => {
-    const e_board = [
+    const e_board_26 = [
         {
             id: 1,
-            src: pres,
-            title: "President",
-            name: "Femi Shaikh",
+            src: pres1,
+            title: "Co-President",
+            name: "Vy Nguyen",
             year: "4th Year",
-            major: "Biochemistry & Psychology",
-            email: "xxh8wp@virginia.edu",
+            major: "Chemical Engineering",
+            email: "bcx4qf@virginia.edu",
         },
         {
             id: 2,
-            src: exVP,
-            title: "External VP",
-            name: "Ken Michael Fabia",
-            year: "4th Year",
-            major: "Electrical Engineering",
-            email: "jnw7qm@virginia.edu",
-        },
-        {
-            id: 3,
-            src: inVP,
-            title: "Internal VP",
-            name: "Eiman Sherzada",
-            year: "3rd Year",
-            major: "Computer Science",
-            email: "vdx8fg@virginia.edu",
-        },
-        {
-            id: 5,
-            src: sec,
-            title: "Secretary",
+            src: pres2,
+            title: "Co-President",
             name: "Victoria Lam",
-            year: "3rd Year",
+            year: "4th Year",
             major: "Biomedical Engineering",
             email: "kze4za@virginia.edu",
         },
-         {
+        {
+            id: 3,
+            src: vp,
+            title: "Vice President",
+            name: "Eiman Sherzada",
+            year: "4th Year",
+            major: "Computer Science & Linguistics",
+            email: "vdx8fg@virginia.edu",
+        },
+        {
             id: 4,
+            src: sec,
+            title: "Secretary",
+            name: "Chau Nguyen",
+            year: "4th Year",
+            major: "Electrical Engineering",
+            email: "myk9zu@virginia.edu",
+        },
+         {
+            id: 5,
             src: tres,
             title: "Treasurer",
             name: "Jacky Zheng",
-            year: "3rd Year",
+            year: "4th Year",
             major: "Mechanical & Aerospace \n Engineering",
             email: "bww8jx@virginia.edu",
         }        
     ]
 
-    const events_mem_board = [ 
+    const chairs_26 = [ 
+        {
+            id: 6,
+            src: epc1,
+            title: "Co-Event Planning Chair",
+            name: "Grace Widjaja",
+            year: "2nd Year",
+            major: "Nursing",
+            email: "yrp4rc@virginia.edu",
+        },
         {
             id: 7,
-            src: ep,
-            title: "Event Planning Chair",
-            name: "Vy Nguyen",
-            year: "3rd Year",
-            major: "Chemical Engineering",
-            email: "bcx4qf@virginia.edu",
+            src: epc2,
+            title: "Co-Event Planning Chair",
+            name: "Phoebe Wang",
+            year: "2nd Year",
+            major: "Electrical & Computer \n Engineering",
+            email: "mfk6mr@virginia.edu",
         },
         {
-            id: 8,
-            src: epc,
-            title: "Event Planning Chair",
-            name: "Kate-Lin Ly",
-            year: "3rd Year",
-            major: "Biochemistry",
-            email: "vvu5wm@virginia.edu",
-        },
-        {
-            id: 9,
-            src: mem, 
-            title: "Membership Chair",
-            name: "Elijah Hernandez",
-            year: "4th Year",
-            major: "Mechanical Engineering",
-            email: "ewe5mv@virginia.edu",
-        }
-    ]
-
-    const conf_board = [
-        {
-            id: 13, 
-            src: con2,
-            title: "Conference Chair",
-            name: "Jimmy Chen",
-            year: "4th Year",
-            major: "Mechanical Engineering",
-            email: "mnz3xz@virginia.edu",
-        },
-        {
-            id: 14, 
-            src: con1,
-            title: "Conference Committee",
+            id: 8, 
+            src: conf1,
+            title: "Co-Conference Chair",
             name: "Lyle Mora",
             year: "2nd Year",
             major: "Systems Engineering",
             email: "fsu5gn@virginia.edu",
         },
-         {
-            id: 15, 
-            src: con3,
-            title: "Conference Committee",
-            name: "Nina Li",
-            year: "4th Year",
-            major: "Computer Science",
-            email: "ady7ry@virginia.edu",
-        }
-    ]
-
-    const pr_comm = [
         {
-            id: 6,
-            src: prc,
-            title: "Public Relations Chair",
-            name: "Nicole Chowdhury",
-            year: "3rd Year",
-            major: "BS Environmental Chemistry",
-            email: "dys6fm@virginia.edu",
+            id: 9, 
+            src: conf2,
+            title: "Co-Conference Chair",
+            name: "Gavin Appel",
+            year: "2nd Year",
+            major: "Systems Engineering",
+            email: "msc7vd@virginia.edu",
         },
         {
             id: 10,
+            src: mem, 
+            title: "Membership Chair",
+            name: "Chloe Lu",
+            year: "3rd Year",
+            major: "Mechanical Engineering",
+            email: "aed7na@virginia.edu",
+        },
+        {
+            id: 11,
+            src: adv,
+            title: "Advocacy Chair",
+            name: "Deeya Natarajan",
+            year: "2nd Year",
+            major: "Systems Engineering",
+            email: "crx3yk@virginia.edu",
+        },
+        {
+            id: 12,
+            src: alum,
+            title: "Alumni Chair",
+            name: "Sadat Hassan",
+            year: "2nd Year",
+            major: "Computer Engineering",
+            email: "yja8ub@virginia.edu",
+        },
+        {
+            id: 13,
+            src: spons,
+            title: "Sponsorship Chair & \n Co-Historian",
+            name: "Christine Nguyen",
+            year: "4th Year",
+            major: "Aerospace Engineering",
+            email: "pap7zd@virginia.edu",
+        }
+    ]
+
+    const pr_comm_26 = [
+        {
+            id: 14,
+            src: prc,
+            title: "Public Relations Chair",
+            name: "Ahmad Ali",
+            year: "3rd Year",
+            major: "Systems Engineering",
+            email: "uyq2tr@virginia.edu",
+        },
+        {
+            id: 15,
             src: mkc,
             title: "Marketing Chair",
-            name: "Norah Lee",
+            name: "Mysha Mosharaf",
             year: "4th Year",
-            major: "Computer Science",
-            email: "mbv7xs@virginia.edu"
+            major: "Computer Science & \n Studio Art",
+            email: "hmb5ug@virginia.edu"
         },
     
         {
-            id: 11, 
+            id: 16, 
             src: his, 
-            title: "Historian",
-            name: "Hannah Duong",
-            year: "4th Year",
-            major: "Electrical & Computer \n Engineering",
-            email: "faw4bh@virginia.edu"
+            title: "Co-Historian",
+            name: "Leah Ye",
+            year: "2nd Year",
+            major: "Data Science",
+            email: "xsj9tt@virginia.edu"
 
         },
         {
-            id: 12, 
+            id: 17, 
             src: web,
             title: "Webmaster",
             name: "Rohan Chhahira",
-            year: "3rd Year",
+            year: "4th Year",
             major: "Computer Science",
             email: "fbt2gt@virginia.edu",
         }
@@ -170,13 +188,13 @@ const Leadership = () => {
     return (
         <leadership>
             <div className="title">
-                <h1>2025-2026</h1>
+                <h1>2026-2027</h1>
                 <h2>UVA SASE Leadership</h2>
             </div>
             <div className="people">
                 <h1>Executive Board</h1>
                 <div className="officer-grid">
-                {e_board.map((member) => (
+                {e_board_26.map((member) => (
                     <div className="member">
                 <div className="img-wrapper">
                     <img src={member.src} alt={member.name} className="rounded-img" />
@@ -190,25 +208,9 @@ const Leadership = () => {
                 ))}
                 </div>
 
-                <h1>Events & Membership</h1>
+                <h1>External Chairs</h1>
                 <div className="officer-grid">
-                {events_mem_board.map((member) => (
-                    <div className="member">
-                <div className="img-wrapper">
-                    <img src={member.src} alt={member.name} className="rounded-img" />
-                </div>
-                <h1>{member.name}</h1>
-                <h2>{member.title}</h2>
-                <p>{member.year}</p>
-                <p>{member.major}</p>
-                <p>{member.email}</p>
-                </div>
-                ))}
-                </div>
-
-                <h1>Conference Committee</h1>
-                <div className="officer-grid">
-                {conf_board.map((member) => (
+                {chairs_26.map((member) => (
                     <div className="member">
                 <div className="img-wrapper">
                     <img src={member.src} alt={member.name} className="rounded-img" />
@@ -224,7 +226,7 @@ const Leadership = () => {
 
                 <h1>Public Relations Committee</h1>
                 <div className="officer-grid">
-                {pr_comm.map((member) => (
+                {pr_comm_26.map((member) => (
                     <div className="member">
                 <div className="img-wrapper">
                     <img src={member.src} alt={member.name} className="rounded-img" />

@@ -128,13 +128,35 @@ leadership .title p {
 }
 
 .rounded-img {
+    display: block;
     width: 100%;
-    max-width: 150px; 
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.img-wrapper {
+    width: 210px;
+    height: 270px;
+    margin-top: 2rem;
+    overflow: hidden;
     border: 3px solid #FB5C02;
-    margin-top: 3rem;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.img-wrapper .rounded-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
 }
 
 
@@ -148,13 +170,20 @@ leadership .title p {
 }
 
 .officer-grid {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     text-align: center;
-    justify-items: center;
-    align-self: center;
+}
+
+.officer-grid .member {
+    flex: 0 1 200px;
+    width: 200px;
+    max-width: 100%;
 }
 
 

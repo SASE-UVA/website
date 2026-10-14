@@ -24,6 +24,28 @@ const Home = () => {
             </div>
             
             </motion.div>
+
+            
+            <motion.div
+                className="featured-video"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                viewport={{ once: true }}
+            >
+                <h2>Get to Know SASE@UVA</h2>
+
+                <div className="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/v_0W39dd1vQ"
+                        title="UVA SASE Introduction"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                    />
+                </div>
+            </motion.div>
+
             
             {/* <motion.img src={sase1} className="conference2" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/>
             <motion.img src={sase2} className="graduation" alt="" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }} viewport={{ once: true }}/> */}
